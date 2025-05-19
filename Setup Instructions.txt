@@ -1,0 +1,13 @@
+
+# Setup Instructions:
+# 1. Install dependencies for Python 3.12.1:
+#    pip install streamlit langchain langchain-google-genai PyPDF2 pandas matplotlib
+# 2. Set up Google API key:
+#    - Option 1: Create .streamlit/secrets.toml in the project directory with:
+#      GOOGLE_API_KEY="your_key_here"
+#    - Option 2: Set environment variable:
+#      export GOOGLE_API_KEY="your_key_here" (Linux/Mac)
+#      set GOOGLE_API_KEY=your_key_here (Windows)
+#    - Option 3: Enter the key in the Streamlit app when prompted.
+# 3. Run the app:
+#    streamlit run study_tool.py
